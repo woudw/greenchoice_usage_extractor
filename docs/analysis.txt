@@ -1,0 +1,16 @@
+
+
+// In uren (voor 2/2/2021)
+{"name":"ProductkostenOphalenRequest","message":{"productType":1,"periodeType":4,"jaar":2021,"maand":2,"dag":2}}
+
+// In dagen ( voor 2/2021)
+{"name":"ProductkostenOphalenRequest","message":{"productType":1,"periodeType":3,"jaar":2021,"maand":2,"dag":1}}
+
+// In uren is beschikbaar (als het nu 28/5 is kunnen we data inzien van 28/2 en later (tot 27/5))
+
+// Euro's
+{"name":"ProductkostenOphalenRequest","message":{"productType":3,"periodeType":4,"jaar":2022,"maand":5,"dag":27}}
+
+// Opgewekte energie
+{"name":"GetWindProductieRequest","message":{"beginDatum":"2022-1-01","eindDatum":"2022-3-01","eenheid":1}}
+
